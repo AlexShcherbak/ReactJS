@@ -1,0 +1,26 @@
+Index: src/components/users/UserComponents.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React, {Component} from 'react';\r\n\r\nclass UserComponents extends Component {\r\n    render() {\r\n\r\n        let {item} = this.props;\r\n\r\n        return (\r\n            <div>\r\n                <h3>\r\n                    {item.name} {item.age} {item.status.toString()}\r\n                </h3>\r\n            </div>\r\n        );\r\n    }\r\n}\r\n\r\nexport default UserComponents;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/users/UserComponents.js b/src/components/users/UserComponents.js
+--- a/src/components/users/UserComponents.js	(revision ae405a88631001529e4f6a8e4acccf4778b67f26)
++++ b/src/components/users/UserComponents.js	(date 1607090660781)
+@@ -1,5 +1,7 @@
+ import React, {Component} from 'react';
+ 
++
++
+ class UserComponents extends Component {
+     render() {
+ 
+@@ -10,6 +12,7 @@
+                 <h3>
+                     {item.name} {item.age} {item.status.toString()}
+                 </h3>
++
+             </div>
+         );
+     }
