@@ -42,3 +42,12 @@ class AllPosts extends Component {
 }
 
 export default AllPosts;
+
+
+
+
+
+
+
+
+
