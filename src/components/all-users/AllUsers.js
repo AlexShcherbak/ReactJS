@@ -27,7 +27,7 @@ class AllUsers extends Component {
             <div className={'d-flex'}>
                 <div className={'col'}>
                     {
-                        users.map(value => <User className={'d-flex justify-content-between'} key={value.id}
+                        users.map(value => <User key={value.id}
                                               item={value}/>)
                     }
                 </div>

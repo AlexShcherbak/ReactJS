@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71321424-96cc-4d05-a659-c7c679e21a8a" name="Default Changelist" comment="users-link">
-      <change afterPath="$PROJECT_DIR$/src/components/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/DetailUser.js" afterDir="false" />
+    <list default="true" id="71321424-96cc-4d05-a659-c7c679e21a8a" name="Default Changelist" comment="choose user =&gt; user info">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <workItem from="1607774727566" duration="1192000" />
       <workItem from="1607802740183" duration="11000" />
       <workItem from="1607806419901" duration="3967000" />
-      <workItem from="1607860818233" duration="15241000" />
+      <workItem from="1607860818233" duration="16307000" />
     </task>
     <task id="LOCAL-00001" summary="url">
       <created>1607467977487</created>
@@ -87,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607727509513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="choose user =&gt; user info">
+      <created>1607900143622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607900143622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="url" />
     <MESSAGE value="users-link" />
-    <option name="LAST_COMMIT_MESSAGE" value="users-link" />
+    <MESSAGE value="choose user =&gt; user info" />
+    <option name="LAST_COMMIT_MESSAGE" value="choose user =&gt; user info" />
   </component>
 </project>
