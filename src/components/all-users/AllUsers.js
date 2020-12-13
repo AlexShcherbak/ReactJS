@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {UserService} from "../services/UserService";
+import UserService from "../services/UserService";
 import User from "../user/User";
+import DetailUser from "../user/DetailUser";
 
 import {
     BrowserRouter as Router,
@@ -12,25 +13,30 @@ import {
 
 class AllUsers extends Component {
 
-    state = {users: []}
     userService = new UserService();
+    state = {users: []}
 
     async componentDidMount() {
-        let users = await this.userService.getAllUsers();
+        let users = await this.userService.users();
         this.setState({users})
     }
 
     render() {
         let {users} = this.state;
         return (
-            <div>
-                {users.map(value => <User key={value.id} item={value}/>)}
-
-                <div className={'border'}>
+            <div className={'d-flex'}>
+                <div className={'col'}>
+                    {
+                        users.map(value => <User className={'d-flex justify-content-between'} key={value.id}
+                                              item={value}/>)
+                    }
+                </div>
+                <div className={'border col'}>
 
                     <Switch>
                         <Route path={'/users/:id'} render={(props) => {
-                            return ' This is user'
+                            let {match: {params: {id}}} = props;
+                            return <DetailUser userId={id} key={id}/>
                         }}/>
                     </Switch>
 

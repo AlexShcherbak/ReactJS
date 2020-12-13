@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71321424-96cc-4d05-a659-c7c679e21a8a" name="Default Changelist" comment="url">
-      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+    <list default="true" id="71321424-96cc-4d05-a659-c7c679e21a8a" name="Default Changelist" comment="users-link">
+      <change afterPath="$PROJECT_DIR$/src/components/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/DetailUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,11 @@
       <updated>1607421631583</updated>
       <workItem from="1607421633512" duration="13527000" />
       <workItem from="1607598177299" duration="1899000" />
-      <workItem from="1607720631359" duration="5000000" />
+      <workItem from="1607720631359" duration="5089000" />
+      <workItem from="1607774727566" duration="1192000" />
+      <workItem from="1607802740183" duration="11000" />
+      <workItem from="1607806419901" duration="3967000" />
+      <workItem from="1607860818233" duration="15241000" />
     </task>
     <task id="LOCAL-00001" summary="url">
       <created>1607467977487</created>
@@ -75,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607720804529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="users-link">
+      <created>1607727509513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607727509513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="url" />
-    <option name="LAST_COMMIT_MESSAGE" value="url" />
+    <MESSAGE value="users-link" />
+    <option name="LAST_COMMIT_MESSAGE" value="users-link" />
   </component>
 </project>

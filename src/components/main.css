@@ -1,0 +1,18 @@
+.btn:first-child {
+    margin-left: 10px;
+}
+
+header {
+    background-color: white;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    margin: 20px;
+}
+

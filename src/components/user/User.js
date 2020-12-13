@@ -9,11 +9,13 @@ import {
 
 class User extends Component {
     render() {
-        let {match: {url}, item} = this.props;
+        let {item, match: {url}} = this.props;
         return (
-            <div>
-                {item.id} - {item.name} - <Link to={`${url}/${item.id}`}>
-                <a href={"#"} className={'btn btn-primary'}>details</a>
+            <div className={"d-flex justify-content-between"}>
+                {item.id} - {item.name}  <Link to={`${url}/${item.id}`}>
+                <a href={"#"} className={'btn btn-primary'}>
+                    details
+                </a>
             </Link>
             </div>
         );
